@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "brand": "aahda",
+    "about": "Sobre mí",
+    "research": "Investigación",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "cta": "Ver mi trabajo"
+  },
+  "hero": {
+    "badge": "Estudiante e Investigador",
+    "greeting": "Hola, soy",
+    "name": "Ángel Huamán",
+    "bio1": "Soy un estudiante que explora la intersección del aprendizaje automático, la ingeniería de datos y la inteligencia de negocios. Mi trabajo se enfoca en construir sistemas que convierten datos complejos en información clara y procesable.",
+    "bio2": "Actualmente cursando mi carrera en Ingeniería de Sistemas, me apasionan las herramientas de código abierto, el modelado estadístico y la creación de visualizaciones que cuentan historias convincentes con datos.",
+    "ctaProjects": "Explorar mis proyectos",
+    "ctaContact": "Contáctame"
+  },
+  "research": {
+    "title": "Intereses de Investigación",
+    "subtitle": "Áreas que exploro activamente y a las que contribuyo.",
+    "areas": [
+      {
+        "title": "Aprendizaje Automático",
+        "desc": "Desarrollo de modelos predictivos y sistemas de recomendación que aprenden de conjuntos de datos complejos y de alta dimensionalidad."
+      },
+      {
+        "title": "Ingeniería de Datos",
+        "desc": "Construcción de tuberías de datos escalables e infraestructura para procesar, almacenar y consultar conjuntos de datos a gran escala."
+      },
+      {
+        "title": "Visualización de Información",
+        "desc": "Diseño de interfaces visuales intuitivas que hacen que los resultados analíticos complejos sean accesibles para diversas audiencias."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "subtitle": "Una selección de proyectos académicos y personales en los que he trabajado. Haz clic en un proyecto para saber más.",
+    "items": [
+      {
+        "title": "Panel de Análisis de Datos USA 2022",
+        "desc": "Un panel interactivo que muestra métricas sobre los reportes de accidentes de tránsito en Estados Unidos, 2022."
+      },
+      {
+        "title": "Panel de Análisis Predictivo",
+        "desc": "Un panel interactivo que pronostica métricas comerciales clave utilizando modelos de series temporales y flujos de datos en tiempo real."
+      },
+      {
+        "title": "Motor de Análisis de Sentimientos NLP",
+        "desc": "Una tubería de aprendizaje profundo que clasifica el sentimiento del cliente a partir de datos de redes sociales con un 94% de precisión."
+      },
+      {
+        "title": "Optimización de Cadena de Suministro",
+        "desc": "Sistema de optimización de inventario multi-escalón usando aprendizaje por refuerzo para minimizar costos en toda la cadena de suministro."
+      },
+      {
+        "title": "Orquestador de Tuberías de Datos",
+        "desc": "Un constructor visual de flujos de trabajo para diseñar, programar y monitorear tuberías de datos ETL/ELT complejas."
+      },
+      {
+        "title": "Predictor de Abandono de Clientes",
+        "desc": "Un modelo ML de conjunto que identifica clientes en riesgo con recomendaciones de retención procesables."
+      },
+      {
+        "title": "Asistente de Consultas BI",
+        "desc": "Una interfaz de lenguaje natural que traduce preguntas en inglés sencillo a consultas SQL optimizadas."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¿Interesado en colaborar o tienes una pregunta sobre mi trabajo? Me encantaría saber de ti.",
+    "email": "Enviar un correo",
+    "resume": "Ver currículum"
+  },
+  "footer": {
+    "credit": "Hecho con React y Tailwind CSS"
+  }
+}
