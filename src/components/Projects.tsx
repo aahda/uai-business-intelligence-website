@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { projects } from '../data/projects'
+import ImageLightbox from './ImageLightbox'
 
 export default function Projects() {
   const { t } = useTranslation()
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null)
   const items = t('projects.items', { returnObjects: true }) as {
     title: string
     desc: string
@@ -25,14 +28,19 @@ export default function Projects() {
               key={i}
               className="group bg-bi-800/30 border border-bi-700/30 rounded-xl overflow-hidden hover:border-bi-600/50 transition-all hover:-translate-y-1"
             >
-              <div className="aspect-video bg-bi-800 flex items-center justify-center overflow-hidden">
-                {projects[i].image ? (
+              {projects[i].image ? (
+                <button
+                  onClick={() => setLightbox({ src: projects[i].image!, alt: item.title })}
+                  className="w-full aspect-video bg-bi-800 flex items-center justify-center overflow-hidden cursor-pointer"
+                >
                   <img
                     src={projects[i].image!}
                     alt={item.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
-                ) : (
+                </button>
+              ) : (
+                <div className="aspect-video bg-bi-800 flex items-center justify-center overflow-hidden">
                   <div className="w-full h-full bg-linear-to-br from-bi-800 to-bi-700 flex items-center justify-center">
                     <svg
                       className="w-12 h-12 text-bi-600"
@@ -48,8 +56,8 @@ export default function Projects() {
                       />
                     </svg>
                   </div>
-                )}
-              </div>
+                </div>
+              )}
               <div className="p-6">
                 <h3 className="text-white text-lg font-semibold mb-2">
                   {item.title}
@@ -72,6 +80,14 @@ export default function Projects() {
           ))}
         </div>
       </div>
+
+      {lightbox && (
+        <ImageLightbox
+          src={lightbox.src}
+          alt={lightbox.alt}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </section>
   )
 }
