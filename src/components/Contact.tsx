@@ -39,12 +39,12 @@ export default function Contact() {
           >
             {t('contact.email')}
           </a>
-          <a
+          {/* <a
             href="#"
             className="border border-bi-600 hover:border-bi-400 text-bi-200 hover:text-white px-8 py-3.5 rounded-xl text-base font-semibold transition-all"
           >
             {t('contact.resume')}
-          </a>
+          </a> */}
         </div>
         <div className="flex items-center justify-center gap-6 mt-10">
           {socials.map((social, i) => (

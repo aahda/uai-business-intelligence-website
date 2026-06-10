@@ -41,30 +41,6 @@
       {
         "title": "Panel de Análisis de Datos USA 2022",
         "desc": "Un panel interactivo que muestra métricas sobre los reportes de accidentes de tránsito en Estados Unidos, 2022."
-      },
-      {
-        "title": "Panel de Análisis Predictivo",
-        "desc": "Un panel interactivo que pronostica métricas comerciales clave utilizando modelos de series temporales y flujos de datos en tiempo real."
-      },
-      {
-        "title": "Motor de Análisis de Sentimientos NLP",
-        "desc": "Una tubería de aprendizaje profundo que clasifica el sentimiento del cliente a partir de datos de redes sociales con un 94% de precisión."
-      },
-      {
-        "title": "Optimización de Cadena de Suministro",
-        "desc": "Sistema de optimización de inventario multi-escalón usando aprendizaje por refuerzo para minimizar costos en toda la cadena de suministro."
-      },
-      {
-        "title": "Orquestador de Tuberías de Datos",
-        "desc": "Un constructor visual de flujos de trabajo para diseñar, programar y monitorear tuberías de datos ETL/ELT complejas."
-      },
-      {
-        "title": "Predictor de Abandono de Clientes",
-        "desc": "Un modelo ML de conjunto que identifica clientes en riesgo con recomendaciones de retención procesables."
-      },
-      {
-        "title": "Asistente de Consultas BI",
-        "desc": "Una interfaz de lenguaje natural que traduce preguntas en inglés sencillo a consultas SQL optimizadas."
       }
     ]
   },

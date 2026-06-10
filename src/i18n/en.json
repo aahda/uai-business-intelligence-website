@@ -41,30 +41,6 @@
       {
         "title": "Data Analytics Dashboard USA 2022",
         "desc": "An interactive dashboard that displays metrics related to traffic accident reports in the United States in 2022."
-      },
-      {
-        "title": "Predictive Analytics Dashboard",
-        "desc": "An interactive dashboard that forecasts key business metrics using time-series models and real-time data streams."
-      },
-      {
-        "title": "NLP Sentiment Analysis Engine",
-        "desc": "A deep learning pipeline that classifies customer sentiment from social media data with 94% accuracy."
-      },
-      {
-        "title": "Supply Chain Optimization",
-        "desc": "Multi-echelon inventory optimization system using reinforcement learning to minimize costs across the supply chain."
-      },
-      {
-        "title": "Data Pipeline Orchestrator",
-        "desc": "A visual workflow builder for designing, scheduling, and monitoring complex ETL/ELT data pipelines."
-      },
-      {
-        "title": "Customer Churn Predictor",
-        "desc": "An ensemble ML model that identifies at-risk customers with actionable retention recommendations."
-      },
-      {
-        "title": "BI Query Assistant",
-        "desc": "A natural language interface that translates plain English questions into optimized SQL queries."
       }
     ]
   },
