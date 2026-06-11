@@ -5,7 +5,9 @@ import ImageLightbox from './ImageLightbox'
 
 export default function Projects() {
   const { t } = useTranslation()
-  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null)
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
+    null,
+  )
   const items = t('projects.items', { returnObjects: true }) as {
     title: string
     desc: string
@@ -15,7 +17,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-6 border-t border-bi-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-bi-50 mb-4">
             {t('projects.title')}
           </h2>
           <p className="text-bi-400 text-lg max-w-2xl mx-auto">
@@ -30,7 +32,9 @@ export default function Projects() {
             >
               {projects[i].image ? (
                 <button
-                  onClick={() => setLightbox({ src: projects[i].image!, alt: item.title })}
+                  onClick={() =>
+                    setLightbox({ src: projects[i].image!, alt: item.title })
+                  }
                   className="w-full aspect-video bg-bi-800 flex items-center justify-center overflow-hidden cursor-pointer"
                 >
                   <img
@@ -43,7 +47,7 @@ export default function Projects() {
                 <div className="aspect-video bg-bi-800 flex items-center justify-center overflow-hidden">
                   <div className="w-full h-full bg-linear-to-br from-bi-800 to-bi-700 flex items-center justify-center">
                     <svg
-                      className="w-12 h-12 text-bi-600"
+                      className="w-12 h-12 text-bi-500"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -59,7 +63,7 @@ export default function Projects() {
                 </div>
               )}
               <div className="p-6">
-                <h3 className="text-white text-lg font-semibold mb-2">
+                <h3 className="text-bi-50 text-lg font-semibold mb-2">
                   {item.title}
                 </h3>
                 <p className="text-bi-400 text-sm leading-relaxed mb-4">

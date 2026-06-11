@@ -22,7 +22,7 @@ export default function Footer() {
               />
             </svg>
           </div>
-          <span className="text-white font-semibold">{t('nav.brand')}</span>
+          <span className="text-bi-50 font-semibold">{t('nav.brand')}</span>
         </div>
         <p className="text-bi-500 text-sm">
           &copy; {new Date().getFullYear()} {t('nav.brand')}.{' '}

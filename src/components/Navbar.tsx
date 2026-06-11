@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
+import ThemeToggle from './ThemeToggle'
 
 export default function Navbar() {
   const { t } = useTranslation()
@@ -23,24 +24,37 @@ export default function Navbar() {
               />
             </svg>
           </div>
-          <span className="text-white font-bold text-lg">{t('nav.brand')}</span>
+          <span className="text-bi-50 font-bold text-lg">{t('nav.brand')}</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm">
-          <a href="#about" className="hover:text-white transition-colors">
+          <a
+            href="#about"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
             {t('nav.about')}
           </a>
-          <a href="#research" className="hover:text-white transition-colors">
+          <a
+            href="#research"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
             {t('nav.research')}
           </a>
-          <a href="#projects" className="hover:text-white transition-colors">
+          <a
+            href="#projects"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
             {t('nav.projects')}
           </a>
-          <a href="#contact" className="hover:text-white transition-colors">
+          <a
+            href="#contact"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
             {t('nav.contact')}
           </a>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <LanguageSwitcher />
+          <ThemeToggle />
           <a
             href="#projects"
             className="bg-accent hover:bg-accent-dark text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors"

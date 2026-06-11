@@ -1,24 +1,63 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-  --color-bi-900: #0f172a;
-  --color-bi-800: #1e293b;
-  --color-bi-700: #334155;
-  --color-bi-600: #475569;
-  --color-bi-500: #64748b;
-  --color-bi-400: #94a3b8;
-  --color-bi-300: #cbd5e1;
-  --color-bi-200: #e2e8f0;
-  --color-bi-100: #f1f5f9;
-  --color-bi-50: #f8fafc;
-  --color-accent: #3b82f6;
-  --color-accent-light: #60a5fa;
-  --color-accent-dark: #2563eb;
-  --color-emerald: #10b981;
-  --color-emerald-light: #34d399;
-  --color-violet: #8b5cf6;
-  --color-violet-light: #a78bfa;
-  --color-amber: #f59e0b;
+  --color-bi-900: var(--bi-900);
+  --color-bi-800: var(--bi-800);
+  --color-bi-700: var(--bi-700);
+  --color-bi-600: var(--bi-600);
+  --color-bi-500: var(--bi-500);
+  --color-bi-400: var(--bi-400);
+  --color-bi-300: var(--bi-300);
+  --color-bi-200: var(--bi-200);
+  --color-bi-100: var(--bi-100);
+  --color-bi-50: var(--bi-50);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+  --color-emerald: var(--emerald);
+  --color-emerald-light: var(--emerald-light);
+  --color-violet: var(--violet);
+  --color-violet-light: var(--violet-light);
+  --color-amber: var(--amber);
+}
+
+:root {
+  --bi-900: #0f172a;
+  --bi-800: #1e293b;
+  --bi-700: #334155;
+  --bi-600: #475569;
+  --bi-500: #64748b;
+  --bi-400: #94a3b8;
+  --bi-300: #cbd5e1;
+  --bi-200: #e2e8f0;
+  --bi-100: #f1f5f9;
+  --bi-50: #f8fafc;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --accent-dark: #2563eb;
+  --emerald: #10b981;
+  --emerald-light: #34d399;
+  --violet: #8b5cf6;
+  --violet-light: #a78bfa;
+  --amber: #f59e0b;
+}
+
+.light {
+  --bi-900: #ffffff;
+  --bi-800: #f1f5f9;
+  --bi-700: #e2e8f0;
+  --bi-600: #cbd5e1;
+  --bi-500: #94a3b8;
+  --bi-400: #64748b;
+  --bi-300: #475569;
+  --bi-200: #334155;
+  --bi-100: #1e293b;
+  --bi-50: #0f172a;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --accent-dark: #1d4ed8;
 }
 
 html {

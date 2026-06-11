@@ -17,7 +17,7 @@ export default function LanguageSwitcher() {
             key={lang.code}
             onClick={() => i18n.changeLanguage(lang.code)}
             className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all cursor-pointer ${
-              active ? 'bg-accent text-white' : 'text-bi-400 hover:text-white'
+              active ? 'bg-accent text-white' : 'text-bi-400 hover:text-bi-50'
             }`}
           >
             {lang.label}

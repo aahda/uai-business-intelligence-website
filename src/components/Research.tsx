@@ -20,7 +20,7 @@ export default function Research() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-bi-50 mb-4">
             {t('research.title')}
           </h2>
           <p className="text-bi-400 text-lg max-w-2xl mx-auto">
@@ -48,7 +48,7 @@ export default function Research() {
                   />
                 </svg>
               </div>
-              <h3 className="text-white text-xl font-semibold mb-3">
+              <h3 className="text-bi-50 text-xl font-semibold mb-3">
                 {area.title}
               </h3>
               <p className="text-bi-400 leading-relaxed">{area.desc}</p>

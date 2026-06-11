@@ -11,7 +11,7 @@ export default function Hero() {
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             {t('hero.badge')}
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-bi-50 leading-tight mb-4">
             {t('hero.greeting')}{' '}
             <span className="bg-linear-to-r from-accent to-violet bg-clip-text text-transparent">
               {t('hero.name')}
@@ -30,7 +30,7 @@ export default function Hero() {
             </a>
             <a
               href="#contact"
-              className="border border-bi-600 hover:border-bi-400 text-bi-200 hover:text-white px-6 py-3 rounded-xl text-sm font-semibold transition-all"
+              className="border border-bi-600 hover:border-bi-400 text-bi-200 hover:text-bi-50 px-6 py-3 rounded-xl text-sm font-semibold transition-all"
             >
               {t('hero.ctaContact')}
             </a>
@@ -41,7 +41,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-linear-to-br from-accent/20 to-violet/20 rounded-full blur-3xl" />
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-bi-800 border-2 border-bi-700 flex items-center justify-center overflow-hidden">
               <svg
-                className="w-32 h-32 text-bi-600"
+                className="w-32 h-32 text-bi-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
