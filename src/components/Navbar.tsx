@@ -34,16 +34,22 @@ export default function Navbar() {
             {t('nav.about')}
           </a>
           <a
-            href="#research"
-            className="text-bi-400 hover:text-bi-50 transition-colors"
-          >
-            {t('nav.research')}
-          </a>
-          <a
             href="#projects"
             className="text-bi-400 hover:text-bi-50 transition-colors"
           >
             {t('nav.projects')}
+          </a>
+          <a
+            href="#skills"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
+            {t('nav.skills')}
+          </a>
+          <a
+            href="#research"
+            className="text-bi-400 hover:text-bi-50 transition-colors"
+          >
+            {t('nav.research')}
           </a>
           <a
             href="#contact"

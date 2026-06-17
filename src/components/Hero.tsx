@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
+import HeroIMG from '../assets/hero/FotoCV.jpg'
+
 export default function Hero() {
   const { t } = useTranslation()
 
@@ -40,7 +42,8 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-linear-to-br from-accent/20 to-violet/20 rounded-full blur-3xl" />
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-bi-800 border-2 border-bi-700 flex items-center justify-center overflow-hidden">
-              <svg
+              <img src={HeroIMG} alt="Hero image" />
+              {/* <svg
                 className="w-32 h-32 text-bi-500"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -52,7 +55,7 @@ export default function Hero() {
                   strokeLinejoin="round"
                   d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                 />
-              </svg>
+              </svg> */}
             </div>
           </div>
         </div>

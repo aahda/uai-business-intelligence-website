@@ -4,6 +4,7 @@
     "about": "Sobre mí",
     "research": "Investigación",
     "projects": "Proyectos",
+    "skills": "Habilidades",
     "contact": "Contacto",
     "cta": "Ver mi trabajo"
   },
@@ -41,6 +42,60 @@
       {
         "title": "Panel de Análisis de Datos USA 2022",
         "desc": "Un panel interactivo que muestra métricas sobre los reportes de accidentes de tránsito en Estados Unidos, 2022."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Herramientas y tecnologías con las que trabajo.",
+    "categories": [
+      {
+        "name": "Lenguajes",
+        "items": [
+          { "name": "Python", "icon": "python" },
+          { "name": "SQL", "icon": "postgresql" },
+          { "name": "JavaScript", "icon": "javascript" },
+          { "name": "TypeScript", "icon": "typescript" },
+          { "name": "Java", "icon": "java" },
+          { "name": "C#", "icon": "csharp" },
+          { "name": "PHP", "icon": "php" },
+          { "name": "R", "icon": "r" }
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "items": [
+          { "name": "React", "icon": "react" },
+          { "name": "Node.js", "icon": "nodedotjs" },
+          { "name": "Express", "icon": "express" },
+          { "name": ".NET", "icon": "dotnet" },
+          { "name": "Spring Boot", "icon": "springboot" },
+          { "name": "Laravel", "icon": "laravel" },
+          { "name": "PyTorch", "icon": "pytorch" }
+        ]
+      },
+      {
+        "name": "Datos e IA",
+        "items": [
+          { "name": "Pandas", "icon": "pandas" },
+          { "name": "Scikit-learn", "icon": "scikitlearn" },
+          { "name": "LangChain", "icon": "langchain" },
+          { "name": "Apache Kafka", "icon": "apachekafka" },
+          { "name": "Airflow", "icon": "apacheairflow" },
+          { "name": "Hadoop", "icon": "apachehadoop" }
+        ]
+      },
+      {
+        "name": "Infraestructura y Herramientas",
+        "items": [
+          { "name": "Docker", "icon": "docker" },
+          { "name": "Git", "icon": "git" },
+          { "name": "GCP", "icon": "googlecloud" },
+          { "name": "Kubernetes", "icon": "kubernetes" },
+          { "name": "Linux", "icon": "linux" },
+          { "name": "PostgreSQL", "icon": "postgresql" },
+          { "name": "Power BI", "icon": "powerbi" }
+        ]
       }
     ]
   },
