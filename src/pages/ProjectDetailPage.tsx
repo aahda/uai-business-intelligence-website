@@ -150,6 +150,42 @@ export default function ProjectDetailPage() {
               </div>
             )}
 
+            {data?.files && data.files.length > 0 && (
+              <div>
+                <h2 className="text-xl font-semibold text-bi-50 mb-5 flex items-center gap-2">
+                  <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                  </svg>
+                  {t('projectDetail.downloadFiles')}
+                </h2>
+                <div className="space-y-3">
+                  {data.files.map((file, i) => (
+                    <a
+                      key={i}
+                      href={file.src}
+                      download={file.label}
+                      className="flex items-center gap-3 bg-bi-800/50 border border-bi-700/30 rounded-xl px-5 py-4 hover:border-accent/40 hover:bg-accent/5 transition-all group"
+                    >
+                      <div className="w-10 h-10 rounded-lg bg-amber/10 flex items-center justify-center shrink-0">
+                        <svg className="w-5 h-5 text-amber" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-bi-200 text-sm font-medium truncate group-hover:text-bi-50 transition-colors">
+                          {file.label}
+                        </p>
+                        <p className="text-bi-500 text-xs mt-0.5">PBIX</p>
+                      </div>
+                      <span className="text-accent text-sm font-medium shrink-0 group-hover:underline">
+                        {t('projectDetail.download')}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {data?.images && data.images.length > 0 && (
               <div>
                 <h2 className="text-xl font-semibold text-bi-50 mb-5 flex items-center gap-2">

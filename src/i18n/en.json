@@ -93,6 +93,22 @@
           ],
           "tech": ["Hadoop", "MapReduce", "Linux", "Java", "HDFS"]
         }
+      },
+      {
+        "slug": "trata-personas-peru-2017-2025",
+        "title": "Trata de Personas Perú 2017-2025",
+        "desc": "Dashboard interactivo sobre trata de personas en el Perú, con datos recopilados de diversas fuentes gubernamentales.",
+        "detail": {
+          "overview": "This project presents an interactive dashboard analyzing human trafficking cases in Peru from 2017 to 2025. Data was collected from government sources and organized into an interactive Power BI dashboard to visualize trends, affected regions, victim profiles, and prosecution statistics.",
+          "features": [
+            "Interactive Power BI dashboard with geospatial visualizations by region",
+            "Time-series analysis of trafficking cases from 2017 to 2025",
+            "Victim demographics breakdown by age, gender, and origin",
+            "Filterable views by trafficking type and year",
+            "Prosecution and conviction statistics tracking"
+          ],
+          "tech": ["Power BI", "Data Visualization", "DAX", "CSV", "ETL"]
+        }
       }
     ]
   },
@@ -102,7 +118,9 @@
     "features": "Features",
     "documents": "Documentation",
     "images": "Screenshots",
-    "viewPdf": "View PDF"
+    "viewPdf": "View PDF",
+    "downloadFiles": "Downloadable Files",
+    "download": "Download"
   },
   "skills": {
     "title": "Skills & Technologies",
