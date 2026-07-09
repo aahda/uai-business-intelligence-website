@@ -40,10 +40,69 @@
     "subtitle": "A selection of academic and personal projects I've worked on. Click on a project to learn more.",
     "items": [
       {
+        "slug": "data-analytics-dashboard-usa-2022",
         "title": "Data Analytics Dashboard USA 2022",
-        "desc": "An interactive dashboard that displays metrics related to traffic accident reports in the United States in 2022."
+        "desc": "An interactive dashboard that displays metrics related to traffic accident reports in the United States in 2022.",
+        "detail": {
+          "overview": "This project involved building a comprehensive data analytics dashboard to visualize and explore traffic accident data across the United States for the year 2022. The dashboard provides interactive filters, geospatial visualizations, and key performance metrics.",
+          "features": [
+            "Interactive map visualization of accident hotspots by state and county",
+            "Time-series charts showing accident trends by month, day, and hour",
+            "Filterable views by severity, weather conditions, and road type",
+            "Export functionality for filtered datasets",
+            "Automated data refresh pipeline"
+          ],
+          "tech": [
+            "Power BI",
+            "Power Query",
+            "Data Transformation",
+            "DAX",
+            "CSV"
+          ]
+        }
+      },
+      {
+        "slug": "hadoop-v3",
+        "title": "Hadoop v3",
+        "desc": "Documentation of the verification of the installation of Hadoop v3 on a virtual machine running the Debian/Linux operating system.",
+        "detail": {
+          "overview": "A detailed walkthrough documenting the step-by-step installation and verification of Apache Hadoop v3 on a Debian/Linux virtual machine. Covers environment setup, configuration files, and validation commands.",
+          "features": [
+            "Installation of Java JDK and configuration of environment variables",
+            "Hadoop v3 download, extraction, and directory setup",
+            "Configuration of core-site.xml, hdfs-site.xml, mapred-site.xml, and yarn-site.xml",
+            "SSH key setup for passwordless node communication",
+            "Formatting HDFS and starting the Hadoop cluster",
+            "Verification via JPS and web UI access"
+          ],
+          "tech": ["Hadoop", "Linux", "Debian", "Virtual Machine", "Java"]
+        }
+      },
+      {
+        "slug": "mapreduce-in-hadoop-v3",
+        "title": "MapReduce in Hadoop v3",
+        "desc": "Documentation of the use of MapReduce with Hadoop v3 on a sample text file.",
+        "detail": {
+          "overview": "This project demonstrates a hands-on MapReduce job execution on Hadoop v3. A classic word count example is implemented and executed to verify the MapReduce framework functionality on a distributed filesystem.",
+          "features": [
+            "Word Count MapReduce job implementation in Java",
+            "JAR compilation and submission to the Hadoop cluster",
+            "Input file preparation on HDFS",
+            "Job execution and monitoring via YARN ResourceManager",
+            "Output retrieval and result verification"
+          ],
+          "tech": ["Hadoop", "MapReduce", "Linux", "Java", "HDFS"]
+        }
       }
     ]
+  },
+  "projectDetail": {
+    "back": "Back to Projects",
+    "tech": "Technologies",
+    "features": "Features",
+    "documents": "Documentation",
+    "images": "Screenshots",
+    "viewPdf": "View PDF"
   },
   "skills": {
     "title": "Skills & Technologies",
