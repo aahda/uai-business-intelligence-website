@@ -5,6 +5,7 @@
     "research": "Investigación",
     "projects": "Proyectos",
     "skills": "Habilidades",
+    "learning": "Aprendizaje",
     "contact": "Contacto",
     "cta": "Ver mi trabajo"
   },
@@ -52,7 +53,13 @@
             "Exportación de datasets filtrados",
             "Tubería de actualización automática de datos"
           ],
-          "tech": ["Power BI", "Power Query", "Transformación de Datos", "DAX", "CSV"]
+          "tech": [
+            "Power BI",
+            "Power Query",
+            "Transformación de Datos",
+            "DAX",
+            "CSV"
+          ]
         }
       },
       {
@@ -103,6 +110,73 @@
           ],
           "tech": ["Power BI", "Visualización de Datos", "DAX", "CSV", "ETL"]
         }
+      }
+    ]
+  },
+  "learning": {
+    "title": "Aprendizaje Continuo",
+    "subtitle": "Logros y certificaciones de Microsoft Learn que he obtenido.",
+    "viewCredential": "Ver credencial",
+    "items": [
+      {
+        "title": "Introducción a la compilación con Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/get-started-power-bi.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/BUHWPNQD?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Obtener datos en Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/get-data.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-mx/ngelHuamn-3231/H2MEUD38?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Crear informes interactivos con Copilot para Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/power-bi-module.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/BU88VECD?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Descripción del análisis de datos",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/data-analytics-and-microsoft.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/QLCCRMTE?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Limpiar, transformar y cargar datos en Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/clean-transform-and-load-data-in-power-bi.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/D3WWQSVJ?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Introducción al análisis de datos de Microsoft",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/overview-data-analysis-power-bi.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/D3WWQLQJ?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Introducción al análisis de un extremo a otro mediante Microsoft Fabric",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/introduction-end-analytics-use-microsoft-fabric.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/K9HHVS2B?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Preparación de datos para el análisis con Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/data-preparation-in-power-bi.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/Y4DDHPAR?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Elección de un marco de modelo de Power BI",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/choose-power-bi-model-framework.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/WMPPC2WN?sharingId=16EA1FD6AA032190"
+      },
+      {
+        "title": "Configurar un modelo semántico",
+        "date": "2026",
+        "image": "https://learn.microsoft.com/training/achievements/generic-badge.svg",
+        "link": "https://learn.microsoft.com/api/achievements/share/es-es/ngelHuamn-3231/WMPPCEYN?sharingId=16EA1FD6AA032190"
       }
     ]
   },

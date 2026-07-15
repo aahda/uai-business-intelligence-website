@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Research from '../components/Research'
 import Skills from '../components/Skills'
+import Learning from '../components/Learning'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -12,8 +13,9 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <Research />
-      <Skills />
       <Projects />
+      <Skills />
+      <Learning />
       <Contact />
       <Footer />
     </div>
