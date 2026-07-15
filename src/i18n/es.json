@@ -2,7 +2,6 @@
   "nav": {
     "brand": "aahda",
     "about": "Sobre mí",
-    "research": "Investigación",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "learning": "Aprendizaje",
@@ -10,31 +9,13 @@
     "cta": "Ver mi trabajo"
   },
   "hero": {
-    "badge": "Estudiante e Investigador",
+    "badge": "Desarrollador de Software",
     "greeting": "Hola, soy",
     "name": "Ángel Huamán",
-    "bio1": "Soy un estudiante que explora la intersección del aprendizaje automático, la ingeniería de datos y la inteligencia de negocios. Mi trabajo se enfoca en construir sistemas que convierten datos complejos en información clara y procesable.",
-    "bio2": "Actualmente cursando mi carrera en Ingeniería de Sistemas, me apasionan las herramientas de código abierto, el modelado estadístico y la creación de visualizaciones que cuentan historias convincentes con datos.",
+    "bio1": "Soy estudiante de Ingeniería de Sistemas y desarrollador de software. Me gusta crear aplicaciones full-stack, diseñar APIs limpias y convertir ideas en código que funciona.",
+    "bio2": "Trabajo con tecnologías web modernas, bases de datos y herramientas en la nube para construir software confiable y mantenible. Siempre estoy explorando nuevas herramientas y frameworks para mejorar mi oficio.",
     "ctaProjects": "Explorar mis proyectos",
     "ctaContact": "Contáctame"
-  },
-  "research": {
-    "title": "Intereses de Investigación",
-    "subtitle": "Áreas que exploro activamente y a las que contribuyo.",
-    "areas": [
-      {
-        "title": "Aprendizaje Automático",
-        "desc": "Desarrollo de modelos predictivos y sistemas de recomendación que aprenden de conjuntos de datos complejos y de alta dimensionalidad."
-      },
-      {
-        "title": "Ingeniería de Datos",
-        "desc": "Construcción de tuberías de datos escalables e infraestructura para procesar, almacenar y consultar conjuntos de datos a gran escala."
-      },
-      {
-        "title": "Visualización de Información",
-        "desc": "Diseño de interfaces visuales intuitivas que hacen que los resultados analíticos complejos sean accesibles para diversas audiencias."
-      }
-    ]
   },
   "projects": {
     "title": "Mis Proyectos",
@@ -203,8 +184,7 @@
           { "name": "TypeScript", "icon": "typescript" },
           { "name": "Java", "icon": "java" },
           { "name": "C#", "icon": "csharp" },
-          { "name": "PHP", "icon": "php" },
-          { "name": "R", "icon": "r" }
+          { "name": "PHP", "icon": "php" }
         ]
       },
       {
@@ -215,19 +195,7 @@
           { "name": "Express", "icon": "express" },
           { "name": ".NET", "icon": "dotnet" },
           { "name": "Spring Boot", "icon": "springboot" },
-          { "name": "Laravel", "icon": "laravel" },
-          { "name": "PyTorch", "icon": "pytorch" }
-        ]
-      },
-      {
-        "name": "Datos e IA",
-        "items": [
-          { "name": "Pandas", "icon": "pandas" },
-          { "name": "Scikit-learn", "icon": "scikitlearn" },
-          { "name": "LangChain", "icon": "langchain" },
-          { "name": "Apache Kafka", "icon": "apachekafka" },
-          { "name": "Airflow", "icon": "apacheairflow" },
-          { "name": "Hadoop", "icon": "apachehadoop" }
+          { "name": "Laravel", "icon": "laravel" }
         ]
       },
       {
@@ -239,7 +207,8 @@
           { "name": "Kubernetes", "icon": "kubernetes" },
           { "name": "Linux", "icon": "linux" },
           { "name": "PostgreSQL", "icon": "postgresql" },
-          { "name": "Power BI", "icon": "powerbi" }
+          { "name": "Power BI", "icon": "powerbi" },
+          { "name": "Hadoop", "icon": "apachehadoop" }
         ]
       }
     ]

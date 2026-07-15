@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Research from '../components/Research'
 import Skills from '../components/Skills'
 import Learning from '../components/Learning'
 import Projects from '../components/Projects'
@@ -12,7 +11,6 @@ export default function HomePage() {
     <div className="min-h-screen bg-bi-900 text-bi-300 font-sans">
       <Navbar />
       <Hero />
-      <Research />
       <Projects />
       <Skills />
       <Learning />

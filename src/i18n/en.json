@@ -2,7 +2,6 @@
   "nav": {
     "brand": "aahda",
     "about": "About",
-    "research": "Research",
     "projects": "Projects",
     "skills": "Skills",
     "learning": "Learning",
@@ -10,31 +9,13 @@
     "cta": "View My Work"
   },
   "hero": {
-    "badge": "Student and Researcher",
+    "badge": "Software Developer",
     "greeting": "Hi, I'm",
     "name": "Ángel Huamán",
-    "bio1": "I'm a student exploring the intersection of machine learning, data engineering, and business intelligence. My work focuses on building systems that turn complex data into clear, actionable insights.",
-    "bio2": "Currently pursuing my degree in Systems Engineering, I'm passionate about open-source tools, statistical modeling, and creating visualizations that tell compelling stories with data.",
+    "bio1": "I'm a Systems Engineering student and software developer who enjoys building full-stack applications, crafting clean APIs, and transforming ideas into working code.",
+    "bio2": "I work with modern web technologies, databases, and cloud tools to create reliable and maintainable software. I'm always exploring new tools and frameworks to level up my craft.",
     "ctaProjects": "Explore My Projects",
     "ctaContact": "Get in Touch"
-  },
-  "research": {
-    "title": "Research Interests",
-    "subtitle": "Areas I'm actively exploring and contributing to.",
-    "areas": [
-      {
-        "title": "Machine Learning",
-        "desc": "Developing predictive models and recommendation systems that learn from complex, high-dimensional datasets."
-      },
-      {
-        "title": "Data Engineering",
-        "desc": "Building scalable data pipelines and infrastructure for processing, storing, and querying large-scale datasets."
-      },
-      {
-        "title": "Information Visualization",
-        "desc": "Designing intuitive visual interfaces that make complex analytical results accessible to diverse audiences."
-      }
-    ]
   },
   "projects": {
     "title": "My Projects",
@@ -203,8 +184,7 @@
           { "name": "TypeScript", "icon": "typescript" },
           { "name": "Java", "icon": "java" },
           { "name": "C#", "icon": "csharp" },
-          { "name": "PHP", "icon": "php" },
-          { "name": "R", "icon": "r" }
+          { "name": "PHP", "icon": "php" }
         ]
       },
       {
@@ -215,20 +195,7 @@
           { "name": "Express", "icon": "express" },
           { "name": ".NET", "icon": "dotnet" },
           { "name": "Spring Boot", "icon": "springboot" },
-          { "name": "Laravel", "icon": "laravel" },
-          { "name": "PyTorch", "icon": "pytorch" }
-        ]
-      },
-      {
-        "name": "Data & AI",
-        "items": [
-          { "name": "Pandas", "icon": "pandas" },
-          { "name": "Scikit-learn", "icon": "scikitlearn" },
-          { "name": "LangChain", "icon": "langchain" },
-          { "name": "Matplotlib", "icon": "matplotlib" },
-          { "name": "Apache Kafka", "icon": "apachekafka" },
-          { "name": "Airflow", "icon": "apacheairflow" },
-          { "name": "Hadoop", "icon": "apachehadoop" }
+          { "name": "Laravel", "icon": "laravel" }
         ]
       },
       {
@@ -240,7 +207,8 @@
           { "name": "Kubernetes", "icon": "kubernetes" },
           { "name": "Linux", "icon": "linux" },
           { "name": "PostgreSQL", "icon": "postgresql" },
-          { "name": "Power BI", "icon": "powerbi" }
+          { "name": "Power BI", "icon": "powerbi" },
+          { "name": "Hadoop", "icon": "apachehadoop" }
         ]
       }
     ]

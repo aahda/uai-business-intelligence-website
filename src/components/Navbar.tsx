@@ -35,12 +35,6 @@ export default function Navbar() {
             {t('nav.about')}
           </Link>
           <Link
-            to="/#research"
-            className="text-bi-400 hover:text-bi-50 transition-colors"
-          >
-            {t('nav.research')}
-          </Link>
-          <Link
             to="/#projects"
             className="text-bi-400 hover:text-bi-50 transition-colors"
           >

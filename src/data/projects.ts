@@ -8,6 +8,7 @@ import DocMapreduce from '../assets/documents/DOC - MAPREDUCE.pdf'
 import DocTrataPersonas from '../assets/documents/TRATA-PERSONAS-PERU-2017-2025.pdf'
 
 import FileTrataPersonasPbix from '../assets/files/trata-personas-peru-2017-2025.pbix'
+import FileDataAnalyticsUSAPbix from '../assets/files/data-analytics-usa-2022.pbix'
 
 export interface ProjectAsset {
   label: string
@@ -27,24 +28,25 @@ export const projects: Project[] = [
     image: ImgDataAnalyticsUSA2022,
     tags: ['PowerBI', 'Power Query', 'Data Transformation'],
     documents: [],
-    files: [],
+    files: [
+      {
+        label: 'data-analytics-usa-2022.pbix',
+        src: FileDataAnalyticsUSAPbix,
+      },
+    ],
     images: [],
   },
   {
     image: ImgHadoopv3,
     tags: ['Hadoop', 'Linux', 'Debian', 'Virtual Machine'],
-    documents: [
-      { label: 'DOC - HADOOP.pdf', src: DocHadoop },
-    ],
+    documents: [{ label: 'DOC - HADOOP.pdf', src: DocHadoop }],
     files: [],
     images: [],
   },
   {
     image: ImgMapreduce,
     tags: ['Hadoop', 'Mapreduce', 'Linux'],
-    documents: [
-      { label: 'DOC - MAPREDUCE.pdf', src: DocMapreduce },
-    ],
+    documents: [{ label: 'DOC - MAPREDUCE.pdf', src: DocMapreduce }],
     files: [],
     images: [],
   },
@@ -55,7 +57,10 @@ export const projects: Project[] = [
       { label: 'TRATA-PERSONAS-PERU-2017-2025.pdf', src: DocTrataPersonas },
     ],
     files: [
-      { label: 'trata-personas-peru-2017-2025.pbix', src: FileTrataPersonasPbix },
+      {
+        label: 'trata-personas-peru-2017-2025.pbix',
+        src: FileTrataPersonasPbix,
+      },
     ],
     images: [],
   },
